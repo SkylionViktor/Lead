@@ -2793,4 +2793,21 @@ html.light .header_nav {
     width: 120px;
     height: 120px;
   }
+  /* Колір тексту для інпутів у темній темі (за замовчуванням) */
+input, textarea {
+  color: #FFFFFF;
+  background: transparent; /* або вкажи конкретний колір фону */
+}
+
+/* Колір тексту для інпутів у світлій темі */
+html.light input, 
+html.light textarea {
+  color: #131313 !important;
+}
+
+/* Якщо потрібно також змінити колір підказки (placeholder) */
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #6a6a6d;
+}
 }
