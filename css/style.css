@@ -151,18 +151,6 @@ html.light body {
   color: #131313;
 }
 
-/* Колір тексту для інпутів у світлій темі */
-html.light input, 
-html.light textarea {
-  color: #131313 !important;
-}
-
-/* Якщо потрібно також змінити колір підказки (placeholder) */
-html.light input::placeholder,
-html.light textarea::placeholder {
-  color: #6a6a6d;
-}
-
 .container {
   max-width: 1619px;
   margin: 0 auto;
@@ -1811,6 +1799,18 @@ html.light .brgBtn .brgBtn_el-3 {
 
 html.light .header_nav {
   background: #FFFFFF;
+}
+
+/* Колір тексту для інпутів у світлій темі */
+html.light input, 
+html.light textarea {
+  color: #131313 !important;
+}
+
+/* Якщо потрібно також змінити колір підказки (placeholder) */
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #6a6a6d;
 }
 
 @media (min-width: 956px) {
