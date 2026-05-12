@@ -1763,6 +1763,11 @@ html.light .footer_input label {
 
 html.light .footer_input {
   border: 1px solid rgba(22, 21, 21, 0.847);
+  color: #6a6a6d;
+}
+
+html.light .footer_input input {
+  color: #6a6a6d;
 }
 
 html.light .footer_form button {
@@ -1799,18 +1804,6 @@ html.light .brgBtn .brgBtn_el-3 {
 
 html.light .header_nav {
   background: #FFFFFF;
-}
-
-/* Колір тексту для інпутів у світлій темі */
-html.light input, 
-html.light textarea {
-  color: #131313 !important;
-}
-
-/* Якщо потрібно також змінити колір підказки (placeholder) */
-html.light input::placeholder,
-html.light textarea::placeholder {
-  color: #6a6a6d;
 }
 
 @media (min-width: 956px) {
